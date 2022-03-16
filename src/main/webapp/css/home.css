@@ -1,0 +1,25 @@
+body {
+		background: #FFF8DC no-repeat; /* Фоновый цвет и фоновый рисунок*/
+		/*background-image: url('../pictures/Drawing.jpg');
+		color: #fff; /*https://images.pexels.com/photos/9049269/pexels-photo-9049269.jpeg?cs=srgb&dl=pexels-%D0%B5%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B5%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B0-9049269.jpg&fm=jpg);
+                       		Цвет текста на странице*/
+		background-size: 100%;
+		height: 100%; /* Высота слоя */
+		background-attachment: scroll;  Фон страницы фиксируется
+		/*background-repeat: repeat-x;  Изображение повторяется по горизонтали */
+
+	}
+.divform{
+    color:#0bda51;
+    line-height: 1;
+}
+.formm{
+    color:#0bda51;
+    font-weight: 700;
+    font-family: "Courier New";
+    line-height: 1.4;
+    position:absolute;
+    font-size: 120%;
+    padding-top: 10px;
+    padding-left: 30px;
+}
