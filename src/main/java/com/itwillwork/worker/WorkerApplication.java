@@ -23,24 +23,3 @@ public class WorkerApplication {
 	}
 
 }
-/**
-@RestController
-class Controller{
-	@GetMapping(path = "/hello/{name}", produces = MediaType.APPLICATION_JSON_VALUE)
-	public String hello(@PathVariable String name){
-		return "Hello "+name+"!";
-	}
-}
-
-@Entity
-class Book{
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
-	private String name;
-}
-@RepositoryRestResource
-interface BookRepository extends JpaRepository<Book,Long>{
-
-}
-*/
